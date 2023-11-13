@@ -3,12 +3,12 @@ package HHHausaufgaben.Aijdin;
 public class VierGewinnt {
     public static void main(String[] args) {
         char[][] sampleField = {
-            {'X', 'O', '_', '_'},
-            {'X', 'X', '_', '_'},
-            {'X', 'O', 'O', 'X'},
+            {'X', 'O', '_', 'X'},
+            {'O', 'X', 'X', 'O'},
+            {'X', 'X', 'O', 'X'},
             {'X', 'X', 'X', 'O'}
         };
-        insertToken(sampleField, 'X', 2);
+        insertToken(sampleField, 'O', 2);
         printField(sampleField);
         isGameOver(sampleField, 'X');
     }
