@@ -47,15 +47,11 @@ public class VierGewinnt {
      */
     
     public static void insertToken(char[][] field, char token, int index) {
-        try {
-            for (int counter = field.length - 1; counter >= 0; counter--) {
-                if (field[counter][index] == '_') {
-                    field[counter][index] = token;
-                    break;
-                }
+        for (int counter = field.length - 1; counter >= 0; counter--) {
+            if (field[counter][index] == '_') {
+                field[counter][index] = token;
+                break;
             }
-        } catch (Exception a) {
-            System.out.print("Column already full");
         }
     }
 
