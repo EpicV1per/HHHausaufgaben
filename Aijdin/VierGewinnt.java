@@ -1,3 +1,5 @@
+package HHHausaufgaben.Aijdin;
+
 public class VierGewinnt {
     public static void main(String[] args) {
     }
@@ -22,5 +24,5 @@ public class VierGewinnt {
         }
     }
 
-    
+
 }
